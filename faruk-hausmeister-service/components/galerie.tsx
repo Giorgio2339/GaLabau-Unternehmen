@@ -114,7 +114,7 @@ export function Galerie() {
               aspectRatio: '2 / 0.9',
             }}
           >
-            <img src="/IMG_2288.jpg" alt="GaLabau Arbeiten" className="img-zoom w-full h-full object-cover" />
+            <img src="/IMG_2290.jpg" alt="GaLabau Arbeiten" className="img-zoom w-full h-full object-cover" />
           </div>
 
           {/* Bild B – Kleines Bild rechts */}
@@ -126,7 +126,7 @@ export function Galerie() {
               aspectRatio: '1 / 1',
             }}
           >
-            <img src="/IMG_2290.jpg" alt="Hausmeister Service" className="img-zoom w-full h-full object-cover" />
+            <img src="/IMG_2288.jpg" alt="Hausmeister Service" className="img-zoom w-full h-full object-cover" />
           </div>
         </div>
 
