@@ -105,29 +105,29 @@ export function Galerie() {
             </div>
           ))}
 
-          {/* Placeholder A – 2 columns wide, ~45% of its width tall */}
+{/* Bild A – Großes Bild links */}
           <div
-            className="rounded-[10px]"
+            className="rounded-[10px] overflow-hidden"
             style={{
               gridColumn: '1 / span 2',
               gridRow: '3',
               aspectRatio: '2 / 0.9',
-              background: 'rgba(0,0,0,0.04)',
-              border: '1px solid var(--color-brand-border)',
             }}
-          />
+          >
+            <img src="/IMG_2288.jpg" alt="GaLabau Arbeiten" className="img-zoom w-full h-full object-cover" />
+          </div>
 
-          {/* Placeholder B – 1 column wide, square */}
+          {/* Bild B – Kleines Bild rechts */}
           <div
-            className="rounded-[10px]"
+            className="rounded-[10px] overflow-hidden"
             style={{
               gridColumn: '3',
               gridRow: '3',
               aspectRatio: '1 / 1',
-              background: 'rgba(0,0,0,0.04)',
-              border: '1px solid var(--color-brand-border)',
             }}
-          />
+          >
+            <img src="/IMG_2290.jpg" alt="Hausmeister Service" className="img-zoom w-full h-full object-cover" />
+          </div>
         </div>
 
         {/* ── Mobile: single column, override via inline media query via CSS class ── */}
